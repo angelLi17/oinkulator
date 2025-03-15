@@ -9,6 +9,16 @@
     "background": {
       "service_worker": "service_worker.js",
       "type": "module"
+    },
+    "action": {
+      "default_icon": {
+        "16": "pig1.png"
+      },
+      "default_popup": "home.html",
+      "default_title": "Open Oinkulator"
+    },
+    "icons": {
+      "16": "pig1.png"
     }
   }
   
