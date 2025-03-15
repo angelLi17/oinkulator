@@ -1,3 +1,7 @@
+body {
+  font-family: 'Dokdo', sans-serif;
+}
+
 /*navigation bar */
 ul {
   list-style-type: none;
@@ -26,7 +30,7 @@ ul {
   border-radius: 7px;
   border: 0px solid #EDAF92;
   background: #FFFDDA;
-  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0,  0);
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0,  0.25);
  }
  
  .container {
@@ -37,3 +41,5 @@ ul {
   width: 175px;
   border: 12px solid #0000;
  }
+
+
