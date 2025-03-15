@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "oinkulator",
+    "version": "0.1.0",
+    "description": "piggy calculator decryption",
+    "permissions": [
+      "scripting",
+      "notifications",
+      "sidePanel",
+      "storage",
+      "favicon",
+      "audio"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
