@@ -12,13 +12,13 @@
     },
     "action": {
       "default_icon": {
-        "16": "pig1.png"
+        "128": "pig1.png"
       },
       "default_popup": "home.html",
       "default_title": "Open Oinkulator"
     },
     "icons": {
-      "16": "pig1.png"
+      "128": "pig1.png"
     }
   }
   
