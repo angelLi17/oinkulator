@@ -9,10 +9,6 @@
       "sidePanel",
       "storage",
       "favicon",
-<<<<<<< HEAD
-=======
-      "audio",
->>>>>>> 30c2ab4a39bddb22a9bef6526f7ab7f6a6b5219c
       "offscreen"
     ],
     "background": {
@@ -20,13 +16,8 @@
     },
     "content_scripts": [
       {
-<<<<<<< HEAD
-        "js": "background.js",
-        "matches": "chrome-extension://inohnmmhkaokdnpcpicddmbnknjbcpni/*",
-=======
-        "js": ["contentscript.js"],
+        "js": ["background.js"],
         "matches": ["chrome-extension://inohnmmhkaokdnpcpicddmbnknjbcpni/*"],
->>>>>>> 30c2ab4a39bddb22a9bef6526f7ab7f6a6b5219c
         "run_at": "document_idle"
       }
     ]
