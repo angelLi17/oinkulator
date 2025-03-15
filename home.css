@@ -3,27 +3,6 @@ body {
   color:#EDAF92
 }
 
-/*navigation bar */
-ul {
-  list-style-type: none;
-  width: 100%; /* Full-width */
-  overflow: auto; /* Overflow due to float */
-  background-color: #0035de;
-}
-.nav-bar a {
-    float: left; /* Float links side by side */
-    text-align: center; /* Center-align text */
-    transition: all 0.3s ease; 
-    color: #ffffff; /* White text color */
-    display: block;
-    padding: 2%;
-    text-decoration-line: none;
-}
-.nav-bar a:hover {
-  /*backdrop-filter: opacity(0.6); not sure why it doesnt work*/
-  filter: opacity(0.6);
-}
-
 .button{
   width: 40px;
   height: 30px;
