@@ -17,7 +17,6 @@
     "content_scripts": [
       {
         "js": ["background.js"],
-        "matches": ["chrome-extension://inohnmmhkaokdnpcpicddmbnknjbcpni/*"],
         "run_at": "document_idle"
       }
     ]
