@@ -13,25 +13,48 @@
     <link href="https://fonts.googleapis.com/css2?family=Dokdo&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Oinkulator</h1>
-    <!--row 1-->
-    <div class = "container">
-        <button class = "button">7</button>
-        <button class = "button">8</button>
-        <button class = "button">9</button>
-    </div>
-
-    <div class = "container">
-        <button class = "button">4</button>
-        <button class = "button">5</button>
-        <button class = "button">6</button>
+    <div class = "calculator">
+        <!--title-->
+        <div class = "container">
+            <h1 class = "container">Oinkulator</h1>
+        </div>
+        <div class = "screen">
+            <p1 id = "space1"></p1>
+            <p1 id = "space2"></p1>
+            <p1 id = "space3"></p1>
+        </div>
+        <!--row 1-->
+        <div class = "container">
+            <button class = "button" onclick = "display(7)">7</button>
+            <button class = "button" onclick = "display(8)">8</button>
+            <button class = "button" onclick = "display(9)">9</button>
+            <button class = "button">C</button>
+        </div>
+    
+        <!--row 2-->
+        <div class = "container">
+            <button class = "button" onclick = "display(4)">4</button>
+            <button class = "button" onclick = "display(5)">5</button>
+            <button class = "button" onclick = "display(6)">6</button>
+            <button class = "button">+</button>
+        </div>
+        
+        <!--row 3-->
+        <div class = "container">
+            <button class = "button" onclick = "display(1)">1</button>
+            <button class = "button" onclick = "display(2)">2</button>
+            <button class = "button" onclick = "display(3)">3</button>
+            <button class = "button">-</button>
+        </div>
+    
+        <!--row 4-->
+        <div class = "container">
+            <button class = "button">0</button>
+            <button class = "button">(-)</button>
+            <button class = "button">=</button>
+            <button class = "button">x</button>
+        </div>
     </div>
     
-    <div class = "container">
-        <button class = "button">1</button>
-        <button class = "button">2</button>
-        <button class = "button">3</button>
-    </div>
-
 </body>
 </html>
