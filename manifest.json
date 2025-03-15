@@ -16,5 +16,6 @@
       "service_worker": "service_worker.js",
       "type": "module"
     }
+    
   }
   
