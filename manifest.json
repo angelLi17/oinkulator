@@ -9,7 +9,6 @@
       "sidePanel",
       "storage",
       "favicon",
-      "audio",
       "offscreen"
     ],
     "background": {
@@ -17,8 +16,8 @@
     },
     "content_scripts": [
       {
-        "js": ["contentscript.js"],
-        "matches": ["chrome-extension://inohnmmhkaokdnpcpicddmbnknjbcpni/*"],
+        "js": "contentscript.js",
+        "matches": "chrome-extension://inohnmmhkaokdnpcpicddmbnknjbcpni/*",
         "run_at": "document_idle"
       }
     ]
