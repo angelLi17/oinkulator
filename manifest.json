@@ -9,10 +9,18 @@
       "sidePanel",
       "storage",
       "favicon",
-      "audio"
+      "audio",
+      "offscreen"
     ],
     "background": {
       "service_worker": "background.js"
-    }
+    },
+    "content_scripts": [
+      {
+        "js": ["contentscript.js"],
+        "matches": ["chrome-extension://inohnmmhkaokdnpcpicddmbnknjbcpni/*"],
+        "run_at": "document_idle"
+      }
+    ]
   }
   
