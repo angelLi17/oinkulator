@@ -6,16 +6,12 @@
     "permissions": [
       "scripting",
       "notifications",
-      "sidePanel",
-      "storage",
-      "favicon",
-      "offscreen",
-      "activeTab"
+      "favicon"
     ],
     "background": {
       "service_worker": "service_worker.js",
       "type": "module"
     }
-    
+
   }
   
