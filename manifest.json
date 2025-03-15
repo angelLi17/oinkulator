@@ -4,14 +4,11 @@
     "version": "0.1.0",
     "description": "piggy calculator decryption",
     "permissions": [
-      "scripting",
-      "notifications",
-      "favicon"
+      "scripting"
     ],
     "background": {
       "service_worker": "service_worker.js",
       "type": "module"
     }
-
   }
   
