@@ -6,13 +6,8 @@
     "permissions": [
       "scripting",
       "activeTab",
-      "content-scripts",
       "storage"
     ],
-    "background": {
-      "service_worker": "service_worker.js",
-      "type": "module"
-    },
     "action": {
       "default_icon": {
         "128": "assets/pig1.png"
