@@ -1,3 +1,7 @@
+import './sw-omnibox.js';
+
+console.log("sw-omnibox.js");
+
 function getTabId() {
   chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
     callback(tabs[0].id);
