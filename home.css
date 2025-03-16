@@ -1,11 +1,10 @@
 body {
-  background-image: url('assets/pixil-frame-0 (1).png');
+  background-image: url('assets/resized.png');
   width: 300px;
   height: 400px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  image-resolution: 300dpi;
 }
 
 .button{
