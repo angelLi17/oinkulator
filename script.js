@@ -6,13 +6,4 @@ button.addEventListener("click", () => {
     let playCount = 0;
 
     audio.play();
-    playCount++;
-
-    if (playCount < timesToPlay) {
-    // Wait for the audio to finish before playing again
-    audio.onended = playAudio;
-    } else {
-      // Reset onended event after all plays are done
-      audio.onended = null;
-    }
   });
