@@ -28,7 +28,6 @@ body {
 
 .title {
   color: #E7876E;
-  text-align: center;
   display: flex;
   justify-content: space-between; 
   align-items: center;
