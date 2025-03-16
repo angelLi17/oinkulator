@@ -1,7 +1,7 @@
 body {
   background-image: url("assets/pixil-frame-0 (1).png");
-  width: 400;
-  height:700;
+  width: 800;
+  height: 600;
 }
 
 .button{
@@ -29,6 +29,7 @@ body {
 
 .title {
   color: #E7876E;
+  font-family: 'Dokdo';
   display: flex;
   justify-content: space-between; 
   align-items: center;
