@@ -4,4 +4,4 @@ A pigified calculator for your entertainment. Do some arithmetic and HEAR the an
 
 <h1>How to deploy?</h1>
 1. Chrome extension library: TBD, chrome needs to review the extension. USE #2
-2. Download the github files, head to chrome://settings, turn on developer mode, and click "load unpacked" then select the oinkulator folder you just downloaded. If the extension is toggled, you can access it as a regular chrome extension (the puzzle piece sign on the right side of your nav-bar).
+<br>2. Download the github files, head to chrome://settings, turn on developer mode, and click "load unpacked" then select the oinkulator folder you just downloaded. If the extension is toggled, you can access it as a regular chrome extension (the puzzle piece sign on the right side of your nav-bar).
