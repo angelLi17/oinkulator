@@ -1,4 +1,4 @@
-<img src="https://github.com/angelLi17/oinkulator/blob/main/assets/pig1.png" style="height:20px;width:20px;"></img>
+<img src="https://github.com/angelLi17/oinkulator/blob/main/assets/pig1.png" style="height:100px;width:100px;"></img>
 <h1>Oinkulator!</h1>
 A pigified calculator for your entertainment. Do some arithmetic and HEAR the answer! Each series of oinks correlates with a number, and the output is in oinks.
 
