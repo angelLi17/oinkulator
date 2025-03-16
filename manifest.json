@@ -6,7 +6,6 @@
     "permissions": [
       "scripting",
       "activeTab",
-      "content-scripts",
       "storage"
     ],
     "background": {
