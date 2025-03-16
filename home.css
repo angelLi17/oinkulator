@@ -1,5 +1,7 @@
 body {
   background-image: url("assets/pixil-frame-0 (1).png");
+  width: 400;
+  height:700;
 }
 
 .button{
