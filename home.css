@@ -1,5 +1,11 @@
 body {
-  background-image: url("assets/pixil-frame-0 (1).png");
+  background-image: url('assets/pixil-frame-0 (1).png');
+  width: 300px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  image-resolution: 300dpi;
 }
 
 .button{
@@ -27,6 +33,7 @@ body {
 
 .title {
   color: #E7876E;
+  font-family: 'Dokdo';
   display: flex;
   justify-content: space-between; 
   align-items: center;
@@ -45,6 +52,7 @@ body {
   stroke-width: 5px;
   stroke: #EDAF92;
   filter: drop-shadow(0px 1px 1px rgba(0,0, 0, 0.25)) drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25));
+  margin: auto;
  }
 
 .screen {
