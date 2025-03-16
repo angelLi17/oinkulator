@@ -4,7 +4,9 @@
     "version": "0.1.0",
     "description": "piggy calculator decryption",
     "permissions": [
-      "scripting"
+      "scripting",
+      "activeTab",
+      "content_scripts"
     ],
     "background": {
       "service_worker": "service_worker.js",
