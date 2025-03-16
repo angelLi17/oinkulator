@@ -18,9 +18,9 @@
     "icons": {
       "128": "assets/pig1.png"
     },
-    "background": {
-      "service_worker": "service-worker.js",
-      "type":"module"
-    }
+    // "background": {
+    //   "service_worker": "service-worker.js",
+    //   "type":"module"
+    // }
   }
   
