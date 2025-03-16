@@ -6,7 +6,8 @@
     "permissions": [
       "scripting",
       "activeTab",
-      "content_scripts"
+      "content-scripts",
+      "storage"
     ],
     "background": {
       "service_worker": "service_worker.js",
